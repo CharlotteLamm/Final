@@ -59,56 +59,72 @@ body {
       .flex-container {
         display: flex;
         flex-direction: row;
-        font-family:Impact,'Arial Narrow Bold', sans-serif;
+        font-family: sans-serif;
       }
       
       
       #flex-item-1 /*profile pic*/{
         width:25%;
-        padding:2vw;
-        margin: 3vw; 
+        padding-left:8vw;
+        padding-right:8vw;
+        margin-left: 1vw;
+        margin-right: 5vw;
+        margin-top: 3vw;
       }
       
       #flex-item-2 /*blurb*/ {
-        width: 30%;
-        padding: vw;
-        margin: vw;
+        width: 100%;
+        padding: 0vw;
+        margin-top: 0vw;
         text-align: center;
         color: coral;
+        font-size:2vw;
       }
   
    #flex-item-3 /*Insta Link*/ {
         width: 30%;
+        height: 5%;
         padding:3vw;
-        margin-left: vw;
-        margin-right: vw;
+        margin-left: 1vw;
+        margin-right: 5vw;
+        margin-top: 8vw;
         background-color:coral;
-        font-family:Impact,'Arial Narrow Bold', sans-serif;
-        font-size:2vw;
+        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-size:3vw;
+        text-align: center;
       }
   
    #flex-item-4 /*mug doodle 1*/{
         width: 35%;
-        margin: 5vw;
+        margin-right: 5vw;
+        margin-left: 5vw;
+        margin-top: 0vw;
+        margin-bottom: .5vw;
         background-color:;
       }
   
   #flex-item-5 /*mug doodle 2*/ {
         width: 35%;
-        margin: 5vw;
+        margin-right: 5vw;
+        margin-left: 5vw;
+        margin-top: 0vw;
+        margin-bottom: .5vw;
         background-color:;
       }
   
   #flex-item-6 /*mug doodle 3*/{
         width: 35%;
-        margin: 5vw;
+        margin-right: 5vw;
+        margin-left: 5vw;
+        margin-top: 0vw;
+        margin-bottom: .5vw;
         background-color:;
       }
       
       footer {
-          margin-top: 30%;
-          padding:6vw;
+          margin-top: 10%;
+          padding:3vw;
           text-align: center;
-          font-size:50%; 
+          font-size:80%; 
           background-color: coral;
       }

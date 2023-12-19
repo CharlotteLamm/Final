@@ -10,28 +10,12 @@ h1 {
   text-align: center;
 }
 
-h2 {
-  font-size:5vw;
-  font-family: 'Arial Narrow Bold', sans-serif;
-  margin:auto;
-  padding:auto;
-  text-align: center;
-}
-
 h3 {
   font-family: sans-serif;
   text-align: center;
   margin:auto;
   padding:auto;
   font-size:2vw;
-}
-
-h4 {
-  font-size:2vw;
-  font-family:Impact, 'Arial Narrow Bold', sans-serif;
-  margin:auto;
-  padding:auto;
-  text-align: center;
 }
 
 .horizontal-nav li {
@@ -44,7 +28,7 @@ h4 {
 }
 
  a {
-   text-decoration: none;
+    text-decoration: none;
     color: black;
     padding:1%;
     font-size:1vw;
@@ -66,30 +50,52 @@ h4 {
     .flex-container {
       display: flex;
       flex-direction: row;
-      font-family:Impact, 'Arial Narrow Bold', sans-serif;
+      font-family:;
     }
     
+   
     #flex-item-1 /*Blurb*/ {
       width: 100%;
-      padding:2vw;
+      padding:1vw;
       margin: 2vw;
-      color: coral;
+      color: black;
       text-align: center;
-      font-size:1vw; 
+      font-size:1.5vw; 
       font-family: Arial, Helvetica, sans-serif;
+      font-weight: bold;
     }
 
-    #flex-item-2 /*Mug-pic*/{
+    #flex-item-2 /*Blurb 2*/ {
+        width: 100%;
+        padding:1vw;
+        margin: 2vw;
+        color: black;
+        text-align: center;
+        font-size:1.5vw; 
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+      }
+
+      #flex-item-3 /*email*/ {
+        font-size:2vw;
+        font-family: Arial, Helvetica, sans-serif;
+        margin:auto;
+        padding:auto;
+        text-align: center;
+        color: coral;
+      }
+
+    #flex-item-4 /*Mug-pic*/{
         width: 25%;
         margin-left: 60vw;
         background-color:;
       }
       
     
-    footer {
-        margin-top: 30%;
-        padding:6vw;
+      footer {
+        margin-top: 10%;
+        padding:3vw;
         text-align: center;
-        font-size:50%; 
+        font-size:80%; 
         background-color: coral;
     }

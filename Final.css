@@ -134,12 +134,6 @@ h3 {
       background-image: url("");
       background-size: 100%;
     }
-    
-    
-    #flex-item-5:hover {
-      background-color: white;
-      transition-duration:.3s;
-    }
 
  #flex-item-6:hover {
 	    background-image: url("") ;
@@ -154,10 +148,10 @@ h3 {
     }
     
     footer {
-        margin-top: 10%;
-        padding:6vw;
-        text-align: center;
-        font-size:50%; 
-        background-color: coral;
-    }
+      margin-top: 10%;
+      padding:3vw;
+      text-align: center;
+      font-size:80%; 
+      background-color: coral;
+  }
     
