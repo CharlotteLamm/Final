@@ -44,6 +44,7 @@ h3 {
     
     a:hover {
       color: white;
+      transition-duration:.3s;
     }
     
     .flex-container {
@@ -54,8 +55,8 @@ h3 {
     
     
     #flex-item-1 /*content*/{
-      width: 50%;
-      padding:8vw;
+      width: 30%;
+      padding:1vw;
       margin: 5vw;
       background-color: coral;
       background-image: url("");
@@ -63,8 +64,8 @@ h3 {
     }
     
     #flex-item-2 /*content*/ {
-      width: 50%;
-      padding:8vw;
+      width: 30%;
+      padding:1vw;
       margin: 5vw;
       background-color: coral;
       background-image: url("");
@@ -72,8 +73,8 @@ h3 {
     }
     
     #flex-item-3 /*content*/ {
-      width: 50%;
-      padding:8vw;
+      width: 30%;
+      padding:1vw;
       margin: 5vw;
       background-color: coral;
       background-image: url("");
@@ -81,8 +82,8 @@ h3 {
     }
 
 #flex-item-4 /*content*/{
-      width: 50%;
-      padding:8vw;
+      width: 30%;
+      padding:1vw;
       margin: 5vw;
       background-color: coral;
       background-image: url("");
@@ -90,19 +91,46 @@ h3 {
     }
     
     #flex-item-5 /*content*/ {
-      width: 50%;
-      padding:8vw;
+      width: 30%;
+      padding:1vw;
       margin: 5vw;
       background-color: coral;
       background-image: url("");
       background-size: 100%;
     }
     
-    #flex-item-6 /*content*/ {
-      width: 50%;
-      padding:8vw;
+    #flex-item-6 /*Bee Mug*/ {
+      width: 30%;
+      padding:1vw;
       margin: 5vw;
       background-color: coral;
+      background-image: url("");
+      background-size: 100%;
+    }
+
+    #flex-item-7 /*Bee Mug*/ {
+      width: 30%;
+      padding:1vw;
+      margin: 5vw;
+      background-color: coral;
+      background-image: url("");
+      background-size: 100%;
+    }
+
+    #flex-item-8 /*Bee Mug*/ {
+      width: 30%;
+      padding:1vw;
+      margin: 5vw;
+      background-color: coral;
+      background-image: url("");
+      background-size: 100%;
+    }
+
+    #flex-item-9 /*Bee Mug*/ {
+      width: 30%;
+      padding:1vw;
+      margin: 5vw;
+      background-color:;
       background-image: url("");
       background-size: 100%;
     }
@@ -118,9 +146,15 @@ h3 {
 	    background-repeat: ;
       transition-duration:.3s;
     }
+
+  #flex-item-10 /*MugPic*/ {
+      width: 40%;
+      margin-left: 30vw;
+      background-color: coral;
+    }
     
     footer {
-        margin-top: 30%;
+        margin-top: 10%;
         padding:6vw;
         text-align: center;
         font-size:50%; 

@@ -1,79 +1,114 @@
 body {
-  font-family: sans-serif;
-}
-
-h1 {
-  font-size:7vw;
-  font-family:Impact, 'Arial Narrow Bold', sans-serif;
-  margin:auto;
-  padding:auto;
-  text-align: center;
-}
-
-h3 {
-  font-family: sans-serif;
-  text-align: center;
-  margin:auto;
-  padding:auto;
-  font-size:2vw;
-}
-
-.horizontal-nav li {
-    list-style-type: none;
-    display: inline;
+    font-family: sans-serif;
+  }
+  
+  h1 {
+    font-size:7vw;
+    font-family:Impact,'Arial Narrow Bold', sans-serif;
+    margin:auto;
+    padding:auto;
     text-align: center;
-    margin:5vw; 
-    max-width: 100%;
-    font-size:1vw;
-}
+  }
+  
+  h3 {
+    font-family: sans-serif;
+    text-align: center;
+    margin:auto;
+    padding:auto;
+    font-size:2vw;
+  }
 
- a {
-   text-decoration: none;
+  hr {
+    color: coral; /*doesnt work*/
+  }
+  
+  a {
+    text-decoration: none;
     color: black;
-    padding:1%;
-    font-size:1vw;
  }
-    
-    nav { 
+
+  .horizontal-nav li {
+      list-style-type: none;
+      display: inline;
       text-align: center;
-      padding: .5vw;
-      margin-top: 3vw;
-      margin-bottom: 3vw;
-      background-color: coral;
-    }
-    
-    a:hover {
-      color: white;
-    }
-    
-    .flex-container {
-      display: flex;
-      flex-direction: row;
-      font-family:Impact, 'Arial Narrow Bold', sans-serif;
-    }
-    
-    
-    #flex-item-1 /*pic*/{
-      width: 25%;
-      hight: 100%;
-      padding:8vw;
-      margin: 5vw;
-      background-color: coral;
-      background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Reuni%C3%A3o_com_o_ator_norte-americano_Keanu_Reeves_%2846806576944%29_%28cropped%29.jpg/1200px-Reuni%C3%A3o_com_o_ator_norte-americano_Keanu_Reeves_%2846806576944%29_%28cropped%29.jpg");
-      background-size: 100%;
-    }
-    
-    #flex-item-2 /*content*/ {
-      width: 100%;
-      padding:8vw;
-      margin: 5vw;
-      background-color: coral;
-    }
-    
-    footer {
-        margin-top: 30%;
-        padding:6vw;
+      margin:5vw; 
+      max-width: 100%;
+      font-size:1vw;
+      text-decoration: none;
+      padding:1%;
+  }
+
+      nav { 
         text-align: center;
-        font-size:50%; 
+        padding: .5vw;
+        margin-top: 3vw;
+        margin-bottom: 3vw;
         background-color: coral;
-    }
+      }
+      
+      a:hover {
+        color: white;
+        transition-duration:.3s;
+      }
+
+      #flex-item-3:hover {
+        background-color:;
+        transition-duration:.3s;
+      }
+      
+      .flex-container {
+        display: flex;
+        flex-direction: row;
+        font-family:Impact,'Arial Narrow Bold', sans-serif;
+      }
+      
+      
+      #flex-item-1 /*profile pic*/{
+        width:25%;
+        padding:2vw;
+        margin: 3vw; 
+      }
+      
+      #flex-item-2 /*blurb*/ {
+        width: 30%;
+        padding: vw;
+        margin: vw;
+        text-align: center;
+        color: coral;
+      }
+  
+   #flex-item-3 /*Insta Link*/ {
+        width: 30%;
+        padding:3vw;
+        margin-left: vw;
+        margin-right: vw;
+        background-color:coral;
+        font-family:Impact,'Arial Narrow Bold', sans-serif;
+        font-size:2vw;
+      }
+  
+   #flex-item-4 /*mug doodle 1*/{
+        width: 35%;
+        margin: 5vw;
+        background-color:;
+      }
+  
+  #flex-item-5 /*mug doodle 2*/ {
+        width: 35%;
+        margin: 5vw;
+        background-color:;
+      }
+  
+  #flex-item-6 /*mug doodle 3*/{
+        width: 35%;
+        margin: 5vw;
+        background-color:;
+      }
+      
+      footer {
+          margin-top: 30%;
+          padding:6vw;
+          text-align: center;
+          font-size:50%; 
+          background-color: coral;
+      }
