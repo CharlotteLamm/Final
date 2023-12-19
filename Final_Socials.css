@@ -1,0 +1,79 @@
+body {
+  font-family: sans-serif;
+}
+
+h1 {
+  font-size:7vw;
+  font-family:Impact, 'Arial Narrow Bold', sans-serif;
+  margin:auto;
+  padding:auto;
+  text-align: center;
+}
+
+h3 {
+  font-family: sans-serif;
+  text-align: center;
+  margin:auto;
+  padding:auto;
+  font-size:2vw;
+}
+
+.horizontal-nav li {
+    list-style-type: none;
+    display: inline;
+    text-align: center;
+    margin:5vw; 
+    max-width: 100%;
+    font-size:1vw;
+}
+
+ a {
+   text-decoration: none;
+    color: black;
+    padding:1%;
+    font-size:1vw;
+ }
+    
+    nav { 
+      text-align: center;
+      padding: .5vw;
+      margin-top: 3vw;
+      margin-bottom: 3vw;
+      background-color: coral;
+    }
+    
+    a:hover {
+      color: white;
+    }
+    
+    .flex-container {
+      display: flex;
+      flex-direction: row;
+      font-family:Impact, 'Arial Narrow Bold', sans-serif;
+    }
+    
+    
+    #flex-item-1 /*pic*/{
+      width: 25%;
+      hight: 100%;
+      padding:8vw;
+      margin: 5vw;
+      background-color: coral;
+      background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Reuni%C3%A3o_com_o_ator_norte-americano_Keanu_Reeves_%2846806576944%29_%28cropped%29.jpg/1200px-Reuni%C3%A3o_com_o_ator_norte-americano_Keanu_Reeves_%2846806576944%29_%28cropped%29.jpg");
+      background-size: 100%;
+    }
+    
+    #flex-item-2 /*content*/ {
+      width: 100%;
+      padding:8vw;
+      margin: 5vw;
+      background-color: coral;
+    }
+    
+    footer {
+        margin-top: 30%;
+        padding:6vw;
+        text-align: center;
+        font-size:50%; 
+        background-color: coral;
+    }

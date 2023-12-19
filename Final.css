@@ -1,9 +1,10 @@
+
 body {
   font-family: sans-serif;
 }
 
 h1 {
-  font-size:3vw;
+  font-size:7vw;
   font-family:Impact, 'Arial Narrow Bold', sans-serif;
   margin:auto;
   padding:auto;
@@ -38,11 +39,11 @@ h3 {
       padding: .5vw;
       margin-top: 3vw;
       margin-bottom: 3vw;
-      background-color: lightskyblue;
+      background-color: coral;
     }
     
     a:hover {
-      color: coral;
+      color: white;
     }
     
     .flex-container {
@@ -56,6 +57,7 @@ h3 {
       width: 50%;
       padding:8vw;
       margin: 5vw;
+      background-color: coral;
       background-image: url("");
       background-size: 100%;
     }
@@ -64,6 +66,7 @@ h3 {
       width: 50%;
       padding:8vw;
       margin: 5vw;
+      background-color: coral;
       background-image: url("");
       background-size: 100%;
     }
@@ -72,23 +75,48 @@ h3 {
       width: 50%;
       padding:8vw;
       margin: 5vw;
+      background-color: coral;
+      background-image: url("");
+      background-size: 100%;
+    }
+
+#flex-item-4 /*content*/{
+      width: 50%;
+      padding:8vw;
+      margin: 5vw;
+      background-color: coral;
       background-image: url("");
       background-size: 100%;
     }
     
-    #flex-item-4 /*content*/{
+    #flex-item-5 /*content*/ {
       width: 50%;
       padding:8vw;
       margin: 5vw;
+      background-color: coral;
+      background-image: url("");
+      background-size: 100%;
+    }
+    
+    #flex-item-6 /*content*/ {
+      width: 50%;
+      padding:8vw;
+      margin: 5vw;
+      background-color: coral;
       background-image: url("");
       background-size: 100%;
     }
     
     
     #flex-item-5:hover {
-      background-color: coral;
+      background-color: white;
       transition-duration:.3s;
+    }
 
+ #flex-item-6:hover {
+	    background-image: url("") ;
+	    background-repeat: ;
+      transition-duration:.3s;
     }
     
     footer {
