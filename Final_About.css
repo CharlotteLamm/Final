@@ -3,7 +3,7 @@ body {
 }
 
 h1 {
-  font-size:7vw;
+  font-size:5vw;
   font-family:Impact, 'Arial Narrow Bold', sans-serif;
   margin:auto;
   padding:auto;
@@ -58,7 +58,7 @@ h3 {
     #flex-item-1 /*pic*/{
       width: 60%;
       padding: 1vw;
-      margin-left: 10vw;
+      margin-left: 7vw;
       margin-top: 6vw;
       background-color:;
     }
@@ -69,7 +69,7 @@ h3 {
       margin: 5vw;
       color: coral;
       text-align: center;
-      font-size:1vw; 
+      font-size:1.5vw; 
       font-family: Arial, Helvetica, sans-serif;
     }
 
