@@ -62,7 +62,7 @@ h3 {
     
     #flex-item-1 /*content*/{
       width: 30%;
-      padding:1vw;
+      padding:.5vw;
       margin: 5vw;
       background-color: coral;
       background-image: url("");
@@ -71,7 +71,7 @@ h3 {
     
     #flex-item-2 /*content*/ {
       width: 30%;
-      padding:1vw;
+      padding:.5vw;
       margin: 5vw;
       background-color: coral;
       background-image: url("");
@@ -80,7 +80,7 @@ h3 {
     
     #flex-item-3 /*content*/ {
       width: 30%;
-      padding:1vw;
+      padding:.5vw;
       margin: 5vw;
       background-color: coral;
       background-image: url("");
@@ -89,7 +89,7 @@ h3 {
 
 #flex-item-4 /*content*/{
       width: 30%;
-      padding:1vw;
+      padding:.5vw;
       margin: 5vw;
       background-color: coral;
       background-image: url("");
@@ -98,7 +98,7 @@ h3 {
     
     #flex-item-5 /*content*/ {
       width: 30%;
-      padding:1vw;
+      padding:.5vw;
       margin: 5vw;
       background-color: coral;
       background-image: url("");
@@ -107,7 +107,7 @@ h3 {
     
     #flex-item-6 /*Bee Mug*/ {
       width: 30%;
-      padding:1vw;
+      padding:.5vw;
       margin: 5vw;
       background-color: coral;
       background-image: url("");
@@ -116,7 +116,7 @@ h3 {
 
     #flex-item-7 /*Bee Mug*/ {
       width: 30%;
-      padding:1vw;
+      padding:.5vw;
       margin: 5vw;
       background-color: coral;
       background-image: url("");
@@ -125,7 +125,7 @@ h3 {
 
     #flex-item-8 /*Bee Mug*/ {
       width: 30%;
-      padding:1vw;
+      padding:.5vw;
       margin: 5vw;
       background-color: coral;
       background-image: url("");
